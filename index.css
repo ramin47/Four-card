@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.container {
+    
+    width: 1200px;
+    margin: auto;
+}
+
+.middle {
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: center;
+
+}
+
+.sides {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.header1 {
+    color: gray;
+    text-align: center;
+
+}
+
+.header2 {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 35px;
+}
+
+.header3 {
+    text-align: center;
+    margin-top: -10px;
+    color: gray;
+}
+
+.card1 {
+    
+    width: 370px;
+    height: 190px;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    
+}
+
+.team {
+    font-size: 20px;
+    margin-left: 45px;
+}
+.teamspan {
+    color: gray;
+    font-size: 15px;
+}
+
+.img1 {
+    margin-left: 285px;
+}
+
+.card2 {
+    width: 370px;
+    height: 190px;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    margin-top: 25px;
+    
+}
+
+.card3 {
+    width: 370px;
+    height: 190px;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 3px solid hsl(180, 62%, 55%);
+    margin-top: -299px;
+}
+.card4 {
+    width: 370px;
+    height: 190px;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    margin-top: -299px;
+    margin-left: 420px;
+}
+
+@media (max-width: 600px) {
+    .middle {
+        width: 560px;
+       display: grid;
+       grid-column: auto;
+       justify-content: center;
+
+    }
+    .sides {
+        width: 460px;
+        display: grid;
+        grid-template-columns: auto;
+
+    }
+    .card3 {
+        width: 370px;
+        height: 190px;
+        background-color: white;
+        border-radius: 10px;
+        border-top: 3px solid hsl(180, 62%, 55%);
+        margin-left: 83px;
+        margin-top: 30px;
+    
+    }
+    .card4 {
+        width: 370px;
+    height: 190px;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    margin-top: 30px;
+    margin-left: 83px;
+    }
+    .container {
+    
+        width: 375px;
+        margin: auto;
+    }
+}
